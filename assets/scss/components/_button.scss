@@ -1,0 +1,91 @@
+.btn{
+    @include button;
+
+    &-primary{
+        @include bg-primary;
+        @include color-white;
+        @include border-all-zero;
+
+        &:hover {
+            @include bg-white;
+            @include color-primary;
+            @include border-all-zero;
+        }
+    }
+
+    &:focus {
+        box-shadow: 0 0 0 0.2rem rgba($color-dark, 0.25);
+    }
+
+    &-underline-primary {
+        @include border-primary;
+        @include border-bottom-point-three;
+    }
+
+    &-underline-secondary {
+        @include border-secondary;
+        @include border-bottom-point-three;
+    }
+
+    &-underline-tertiary {
+        @include border-tertiary;
+        @include border-bottom-point-three;
+    }
+
+    &-underline-light {
+        @include border-light;
+        @include border-bottom-point-three;
+    }
+
+    &-underline-dark {
+        @include border-dark;
+        @include border-bottom-point-three;
+    }
+
+    &-underline-white {
+        @include border-white;
+        @include border-bottom-point-three;
+    }
+
+    &-underline-black {
+        @include border-black;
+        @include border-bottom-point-three;
+    }
+
+    &-secondary {
+        @include bg-secondary;
+        @include color-white;
+        @include border-all-zero;
+
+        &:hover {
+            @include color-secondary;
+            @include bg-white;
+            @include border-all-zero;
+        }
+    }
+
+    &-tertiary {
+        @include bg-tertiary;
+        @include color-primary;
+        @include border-all-zero;
+
+        &:hover {
+            @include bg-primary;
+            @include color-light;
+            @include border-all-zero;
+        }
+    }
+
+    &-b-primary {
+        @include bg-transparent;
+        @include color-primary;
+        @include border-all-point-three;
+        @include border-primary;
+
+        &:hover {
+            @include border-all-point-three;
+            @include border-primary;
+            @include bg-primary;
+        }
+    }
+}

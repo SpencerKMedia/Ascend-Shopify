@@ -1,0 +1,43 @@
+.box{
+    width: 100%;
+    position: relative;
+    padding: 3rem;
+
+    &__image{
+        width: inherit;
+        display: block;
+        height: auto;
+    }
+
+    &__overlay{
+        position: absolute;
+        padding: 30% 5rem;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        vertical-align: middle;
+        background-color: rgba($color-primary, 0.85);
+
+        h1,h2,h3,h4,h5,h6,p,span,i{
+            @include color-white;
+        }
+
+        h3{
+            font-size: 4.5rem;
+        }
+
+        p{
+            font-size: 2rem;
+        }
+    }
+
+    &:hover{
+        .box__overlay{
+            opacity: 1;
+        }
+    }
+}

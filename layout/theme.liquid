@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="{{ shop.locale }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="{{ page_description }}">
+  <meta name="keywords" content="cbd oil for sale, buy cbd oil, thc-free cbd for sale, broad spectrum cbd for sale">
+  <meta name="author" content="Spencer K Media">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{ canonical_url }}">
+  <link rel="icon" href="{{settings.favicon | img_url: '32x'}}" type="image/png" sizes="32x32">
+  <!-- SEO Head Terms and Long Tail Keywords go in the "keywords" meta tag-->
+  <!-- SEO Head Term | Something short goes here i.e.: CBD -->
+  <!-- SEO Long Tail Keyword | Something long goes here i.e.: 100% Pure CBD Oil -->
+
+  <title>{{ shop.name }}</title>
+
+  {% if template == 'index' %}
+  <title>{{ shop.name }} | {{ page_title }}</title>
+  {% elsif template == '404' %}
+  <title>Page Not Found | {{ shop.name }}</title>
+  {% else %}
+  <title>{{ page_title }} | {{ shop.name }}</title>
+  {% endif %}
+
+  {% if page_description %}
+    <meta name="description" content="{{ page_description }}">
+  {% endif %}
+
+  {{ content_for_header }}
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  {{ 'application.css' | asset_url | stylesheet_tag }}
+</head>
+
+<body class="{{ settings.site__bg }}">
+  {% section 'header_action' %}
+  {% section 'header' %}
+
+  {{ content_for_layout }}
+
+  {% section 'footer' %}
+
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+
+      <!-- Initialize Swiper -->
+  <script>
+  var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  })
+  </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+/*
+Project Name: Ascend
+Project URI: /Ascend.local/
+Author: SpencerKMedia
+Author URI: https://spencerkmedia.com/
+Description: 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Ascend
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, project-options, threaded-comments, translation-ready
+*/
+
+@import "vendors/vendors";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+@import "base/base";
+@import "base/animations";
+@import "base/type";
+@import "base/utils";
+@import "components/box";
+@import "components/button";
+@import "components/card";
+@import "components/lists";
+@import "components/hero";
+@import "components/navigation";
+@import "components/svg";
+@import "layouts/page";

@@ -1,0 +1,97 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+@mixin button{
+    border-radius: 0;
+    padding: 1.4rem 3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@mixin color-primary{color: $color-primary !important;}
+@mixin color-secondary {color: $color-secondary !important;}
+@mixin color-tertiary {color: $color-tertiary !important;}
+@mixin color-quaternary {color: $color-quaternary !important;}
+@mixin color-nav {color: $color-nav !important;}
+@mixin color-light {color: $color-light !important;}
+@mixin color-dark {color: $color-dark !important;}
+@mixin color-white {color: $color-white !important;}
+@mixin color-black {color: $color-black !important;}
+@mixin color-transparent {color: transparent !important;}
+
+@mixin bg-primary{background-color: $color-primary !important;}
+@mixin bg-secondary {background-color: $color-secondary !important;}
+@mixin bg-tertiary {background-color: $color-tertiary !important;}
+@mixin bg-quaternary {background-color: $color-quaternary !important;}
+@mixin bg-nav {background-color: $color-nav !important;}
+@mixin bg-light {background-color: $color-light !important;}
+@mixin bg-dark {background-color: $color-dark !important;}
+@mixin bg-white {background-color: $color-white !important;}
+@mixin bg-black {background-color: $color-black !important;}
+@mixin bg-transparent {background-color: transparent !important;}
+
+@mixin border-primary{border-color: $color-primary !important;}
+@mixin border-secondary {border-color: $color-secondary !important;}
+@mixin border-tertiary {border-color: $color-tertiary !important;}
+@mixin border-quaternary {border-color: $color-quaternary !important;}
+@mixin border-nav {border-color: $color-nav !important;}
+@mixin border-light {border-color: $color-light !important;}
+@mixin border-dark {border-color: $color-dark !important;}
+@mixin border-white {border-color: $color-white !important;}
+@mixin border-black {border-color: $color-black !important;}
+
+@mixin border-all-zero{border: 0 !important;}
+@mixin border-all-point-one{border: .1rem solid !important;}
+@mixin border-all-point-two {border: .2rem solid !important;}
+@mixin border-all-point-three {border: .3rem solid !important;}
+@mixin border-all-point-four {border: .4rem solid !important;}
+@mixin border-all-point-five {border: .5rem solid !important;}
+@mixin border-all-point-six {border: .6rem solid !important;}
+@mixin border-all-point-seven {border: .7rem solid !important;}
+@mixin border-all-point-eight {border: .8rem solid !important;}
+@mixin border-all-point-nine {border: .9rem solid !important;}
+@mixin border-all-one {border: 1rem solid !important;}
+@mixin border-all-two {border: 2rem solid !important;}
+@mixin border-all-three {border: 3rem solid !important;}
+@mixin border-all-four {border: 4rem solid !important;}
+@mixin border-all-five {border: 5rem solid !important;}
+
+@mixin border-bottom-zero{border-bottom: 0 !important;}
+@mixin border-bottom-point-one{border-bottom: .1rem solid !important;}
+@mixin border-bottom-point-two {border-bottom: .2rem solid !important;}
+@mixin border-bottom-point-three {border-bottom: .3rem solid !important;}
+@mixin border-bottom-point-four {border-bottom: .4rem solid !important;}
+@mixin border-bottom-point-five {border-bottom: .5rem solid !important;}
+@mixin border-bottom-point-six {border-bottom: .6rem solid !important;}
+@mixin border-bottom-point-seven {border-bottom: .7rem solid !important;}
+@mixin border-bottom-point-eight {border-bottom: .8rem solid !important;}
+@mixin border-bottom-point-nine {border-bottom: .9rem solid !important;}
+@mixin border-bottom-one {border-bottom: 1rem solid !important;}
+@mixin border-bottom-two {border-bottom: 2rem solid !important;}
+@mixin border-bottom-three {border-bottom: 3rem solid !important;}
+@mixin border-bottom-four {border-bottom: 4rem solid !important;}
+@mixin border-bottom-five {border-bottom: 5rem solid !important;}
+
+@mixin border-top-zero{border-top: 0 !important;}
+@mixin border-top-point-one{border-top: .1rem solid !important;}
+@mixin border-top-point-two {border-top: .2rem solid !important;}
+@mixin border-top-point-three {border-top: .3rem solid !important;}
+@mixin border-top-point-four {border-top: .4rem solid !important;}
+@mixin border-top-point-five {border-top: .5rem solid !important;}
+@mixin border-top-point-six {border-top: .6rem solid !important;}
+@mixin border-top-point-seven {border-top: .7rem solid !important;}
+@mixin border-top-point-eight {border-top: .8rem solid !important;}
+@mixin border-top-point-nine {border-top: .9rem solid !important;}
+@mixin border-top-one {border-top: 1rem solid !important;}
+@mixin border-top-two {border-top: 2rem solid !important;}
+@mixin border-top-three {border-top: 3rem solid !important;}
+@mixin border-top-four {border-top: 4rem solid !important;}
+@mixin border-top-five {border-top: 5rem solid !important;}
+

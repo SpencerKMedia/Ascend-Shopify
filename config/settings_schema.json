@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Ascend Theme | Settings",
+    "settings" : [
+      {
+        "type" : "header",
+        "content" : "Color Options"
+      },
+      {
+        "type": "select",
+        "id": "site__bg",
+        "label": "Background Color",
+        "options": [
+          {"value": "bg-primary", "label": "Primary"},
+          {"value": "bg-secondary","label": "Secondary"},
+          {"value": "bg-tertiary","label": "Tertiary"},
+          {"value": "bg-quaternary","label": "Quaternary"},
+          {"value": "bg-dark","label": "Dark"},
+          {"value": "bg-light","label": "Light"},
+          {"value": "bg-black","label": "Black"},
+          {"value": "bg-white","label": "White"}
+        ],
+        "default": "bg-white",
+        "info": "Set the background color."
+      },{
+        "type": "header",
+        "content": "Image Options"
+      },{
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Site Logo"
+      }, {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Site FavIcon"
+      }
+    ]
+  },
+  {
+    "name" : "Page | About",
+    "settings" : [{
+      "type" : "image_picker",
+      "id" : "image__about",
+      "label" : "About Hero Image Picker"
+    },{
+      "type" : "textarea",
+      "id" : "description__about",
+      "label" : "Page Description"
+    }]
+  }, {
+    "name": "Page | Contact",
+    "settings": [{
+      "type": "image_picker",
+      "id": "image__contact",
+      "label": "Contact Hero Image Picker"
+    }]
+  }, {
+    "name": "Page | Collections",
+    "settings": [{
+      "type": "image_picker",
+      "id": "image__collections",
+      "label": "Collections Hero Image Picker"
+    }]
+  }, {
+    "name": "Page | Shop",
+    "settings": [{
+      "type": "image_picker",
+      "id": "image__shop",
+      "label": "Shop Hero Image Picker"
+    }]
+  }
+]

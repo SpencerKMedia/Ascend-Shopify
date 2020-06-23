@@ -1,0 +1,60 @@
+// .toggled = show
+// not .toggled = hide
+
+@include media-breakpoint-up(xs) {
+    a {
+        transition: all .3s ease-in-out;
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+        }
+    }
+
+    #navbar__slim.navbar {
+        min-height: 5rem;
+        height: auto;
+        padding: .5rem 0;
+
+        li > a{
+            font-size: 2rem;
+
+            i.fas, i.fab, i.far{
+                font-size: inherit;
+            }
+        }
+        
+    }
+
+    #navbar__main.navbar{
+        min-height: 12rem;
+        padding: 0;
+
+        li{
+            &:not(:last-child){
+                margin: 0 1rem;
+                padding: 1rem .5rem;
+            }
+            &:last-child(){
+                margin: 0 1rem 0 0;
+                padding: 1rem .5rem;
+            }
+
+            > a {
+                font-size: 1.65rem;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(xs) {
+
+}
+
+@include media-breakpoint-up(sm) {}
+
+@include media-breakpoint-up(md) {}
+
+@include media-breakpoint-up(lg) {}
+
+@include media-breakpoint-up(xl) {}

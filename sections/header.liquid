@@ -1,0 +1,17 @@
+<nav id="navbar__main" class="navbar navbar-expand-lg navbar-light bg-white">
+  {% include 'header__menu' %}
+</nav>
+
+{% schema %}
+  {
+    "name": "Main Menu",
+    "settings": [
+    {
+      "type" : "link_list",
+      "id" : "menu_linklist",
+      "label" : "Menu",
+      "default" : "main-menu"
+    }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,94 @@
+$font-family: "mirrorplay" !default;
+$font-path: "/assets/webfonts" !default;
+
+$mp-Bell: "\e900";
+$mp-Camcorder-path1: "\e901";
+$mp-Camcorder-path2: "\e902";
+$mp-Camcorder-path3: "\e903";
+$mp-Camcorder-path4: "\e904";
+$mp-Coin: "\e905";
+$mp-Message: "\e906";
+$mp-Mixer: "\e907";
+$mp-Stats: "\e908";
+$mp-Users: "\e909";
+
+@font-face {
+  font-family: "mirrorplay";
+  src:  url('#{$font-path}/#{$font-family}.eot?d32gzo');
+  src:  url('#{$font-path}/#{$font-family}.eot?d32gzo#iefix') format('embedded-opentype'),
+    url('#{$font-path}/#{$font-family}.ttf?d32gzo') format('truetype'),
+    url('#{$font-path}/#{$font-family}.woff?d32gzo') format('woff'),
+    url('#{$font-path}/#{$font-family}.svg?d32gzo##{$font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="mp-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkitfont-smoothing: antialiased;
+  -moz-osxfont-smoothing: grayscale;
+}
+
+.mp-Bell {
+  &:before {
+    content: $mp-Bell; 
+  }
+}
+.mp-Camcorder .path1 {
+  &:before {
+    content: $mp-Camcorder-path1;
+  }
+}
+.mp-Camcorder .path2 {
+  &:before {
+    content: $mp-Camcorder-path2;  
+    margin-left: -1em;
+  }
+}
+.mp-Camcorder .path3 {
+  &:before {
+    content: $mp-Camcorder-path3;  
+    margin-left: -1em;
+  }
+}
+.mp-Camcorder .path4 {
+  &:before {
+    content: $mp-Camcorder-path4;  
+    margin-left: -1em;
+  }
+}
+.mp-Coin {
+  &:before {
+    content: $mp-Coin; 
+  }
+}
+.mp-Message {
+  &:before {
+    content: $mp-Message; 
+  }
+}
+.mp-Mixer {
+  &:before {
+    content: $mp-Mixer; 
+  }
+}
+.mp-Stats {
+  &:before {
+    content: $mp-Stats; 
+  }
+}
+.mp-Users {
+  &:before {
+    content: $mp-Users; 
+  }
+}

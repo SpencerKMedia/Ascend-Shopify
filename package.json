@@ -1,0 +1,14 @@
+{
+  "name": "Ascend",
+  "version": "0.00.05",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass assets/application.scss assets/application.css -w --output-style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
