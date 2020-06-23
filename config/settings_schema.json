@@ -34,9 +34,17 @@
         "id": "favicon",
         "label": "Site FavIcon"
       }, {
+        "type": "header",
+        "content": "Meta Settings"
+      }, {
         "type" : "text",
         "id" : "keywords",
-        "label" : "Meta Keywords"
+        "label" : "Meta Keywords",
+        "info" : "Enter in keywords separated by comma i.e.:Product, Wonderful Safe Products"
+      }, {
+        "type": "text",
+        "id": "author",
+        "label": "Meta Site Developer"
       }
     ]
   },
