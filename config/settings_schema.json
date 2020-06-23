@@ -33,6 +33,10 @@
         "type": "image_picker",
         "id": "favicon",
         "label": "Site FavIcon"
+      }, {
+        "type" : "text",
+        "id" : "keywords",
+        "label" : "Meta Keywords"
       }
     ]
   },
