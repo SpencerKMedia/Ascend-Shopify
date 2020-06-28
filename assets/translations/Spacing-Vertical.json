@@ -1,0 +1,38 @@
+[
+  { "language": "German", "symbol": "de", "text": "Abstand vertikal" },
+  { "language": "Italian", "symbol": "it", "text": "Spaziatura verticale" },
+  { "language": "Norwegian", "symbol": "nb", "text": "Avstand vertikalt" },
+  { "language": "English", "symbol": "en", "text": "Spacing Vertical" },
+  { "language": "Spanish", "symbol": "es", "text": "Espaciado vertical" },
+  { "language": "Chinese Simplified", "symbol": "zh-cn", "text": "垂直间距" },
+  { "language": "Danish", "symbol": "da", "text": "Afstand lodret" },
+  { "language": "Japanese", "symbol": "ja", "text": "垂直方向の間隔" },
+  { "language": "Swedish", "symbol": "sv", "text": "Avstånd vertikalt" },
+  { "language": "Thai", "symbol": "th", "text": "ระยะห่างแนวตั้ง" },
+  { "language": "Chinese Traditional", "symbol": "zh-tw", "text": "垂直間距" },
+  { "language": "Dutch", "symbol": "nl", "text": "Afstand verticaal" },
+  { "language": "Finnish", "symbol": "fi", "text": "Väli pystysuunnassa" },
+  { "language": "Korean", "symbol": "ko", "text": "간격 수직" },
+  { "language": "Portuguese", "symbol": "pt", "text": "Espaçamento Vertical" },
+  { "language": "French", "symbol": "fr", "text": "Espacement vertical" },
+  { "language": "Hindi", "symbol": "hi", "text": "खड़ी जगह" }
+]
+{
+    "de" : "Abstand vertikal" ,
+    "it" : "Spaziatura verticale" ,
+    "nb" : "Avstand vertikalt" ,
+    "en" : "Spacing Vertical" ,
+    "es" : "Espaciado vertical" ,
+    "zh-cn" : "垂直间距" ,
+    "da" : "Afstand lodret" ,
+    "ja" : "垂直方向の間隔" ,
+    "sv" : "Avstånd vertikalt" ,
+    "th" : "ระยะห่างแนวตั้ง" ,
+    "zh-tw" : "垂直間距" ,
+    "nl" : "Afstand verticaal" ,
+    "fi" : "Väli pystysuunnassa" ,
+    "ko" : "간격 수직" ,
+    "pt" : "Espaçamento Vertical" ,
+    "fr" : "Espacement vertical" ,
+    "hi" : "खड़ी जगह"
+}

@@ -11,8 +11,8 @@
     padding: 1.4rem 3rem;
     font-size: 1.3rem;
     font-weight: bold;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    // margin-left: 1rem;
+    // margin-right: 1rem;
 }
 
 @mixin color-primary{color: $color-primary !important;}
@@ -36,6 +36,7 @@
 @mixin bg-white {background-color: $color-white !important;}
 @mixin bg-black {background-color: $color-black !important;}
 @mixin bg-transparent {background-color: transparent !important;}
+@mixin bg-overlay {background-image: initial;}
 
 @mixin border-primary{border-color: $color-primary !important;}
 @mixin border-secondary {border-color: $color-secondary !important;}

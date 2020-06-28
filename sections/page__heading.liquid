@@ -1,0 +1,31 @@
+<div class="container-fluid align-items-end bg-overlay pb-4" style="background-image: url()">
+    <h1 class="heading-primary">{{ page.title }}</h1>
+    {% include 'page__breadcrumb' %}
+</div>
+
+{% schema %}
+    {
+        "name": "Page Hero",
+        "settings": [
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Section Heading",
+            "default": "Featured Products"
+        },
+        {
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection"
+        },
+        {
+            "type": "range",
+            "id": "product_limit",
+            "label": "Product Limit",
+            "min": 3,
+            "max": 6,
+            "default": 3
+        }
+        ]
+    }
+{% endschema %}

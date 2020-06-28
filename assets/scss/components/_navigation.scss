@@ -30,18 +30,51 @@
         min-height: 12rem;
         padding: 0;
 
-        li{
-            &:not(:last-child){
-                margin: 0 1rem;
-                padding: 1rem .5rem;
-            }
-            &:last-child(){
-                margin: 0 1rem 0 0;
-                padding: 1rem .5rem;
-            }
+        li {
+            padding: 1rem .5rem;
+            margin: 0 1rem;
 
             > a {
                 font-size: 1.65rem;
+            }
+        }
+
+        .nav-item{
+            padding: .5rem 1.5rem;
+
+            &:hover{
+
+                .dropdown-menu{
+                    display: block;
+                }
+            }
+
+            .dropdown-menu{
+                min-width: 20rem;
+                width: auto;
+                padding: .5rem 0;
+                margin: .125rem 0 0;
+                font-size: 1.35rem;
+                color: $color-dark;
+                text-align: center;
+                list-style: none;
+                background-color: $color-white;
+                border: 0px;
+                border-radius: 0;
+
+                .dropdown-header{
+                    font-size: 1.4rem;
+                    font-weight: 500;
+                }
+
+                .nav-link{
+                    padding: .5rem 1.5rem;
+                    font-size: 1.35rem;
+
+                    a{
+                        font-size: 1.35rem;
+                    }
+                }
             }
         }
     }

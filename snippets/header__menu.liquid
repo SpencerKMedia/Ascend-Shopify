@@ -18,7 +18,7 @@
       <ul class="navbar-nav ml-auto">
         {% for link in linklists[section.settings.menu_linklist].links %}
         {% if link.links == blank %}
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="{{ link.url }}">{{ link.title }}</a>
         </li>
         {% endif %}
@@ -27,26 +27,34 @@
           <a
             class="nav-link dropdown-toggle"
             href="#"
-            id="navbarDropdown"
+            id="navbarDropdown-{{link.title}}"
             role="button"
             data-toggle="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
           >
-            Shop
+            {{link.title}}
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown-{{link.title}}">
+            <div class="dropdown-header">{{ link.title }}</div>
             {% for childlink in link.links %}
-            <div class="dropdown-header">{{ childlink.title }}</div>
             <div class="dropdown-divider"></div>
-
-            {% for sublink in childlink.links %}
-            <a href="{{ sublink.url }}">{{ sublink.title }}</a>
-            {% endfor %} {% endfor %}
+              <a class="nav-link" href="{{ childlink.url }}">{{ childlink.title }}</a>{% endfor %}
           </div>
         </li>
         {% endif %} {% endfor %}
+        {% if settings.menu__top-visibility == "hide" %}
+          {% if customer %}
+            <li class="nav-item"><a class="nav-link" href="/account"><i class="fas fa-user"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="/account/logout"><i class="fas fa-sign-out-alt"></i></a></li>
+          {% else %}
+            <li class="nav-item">
+              <a class="nav-link" href="/account/login"><i class="fas fa-sign-out-alt"></i></a>
+            </li>
+          {% endif %}
+        {% endif %}
       </ul>
+
     </div>
   </div>
 

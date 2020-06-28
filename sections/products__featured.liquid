@@ -1,0 +1,70 @@
+<section class="products section pt-{{section.settings.spacing_vertical}} pb-{{section.settings.spacing_vertical}}">
+  <div class="container">
+
+
+{% assign collection = collections[section.settings.collection] %}
+
+      <h2 class="text-center secondary-heading pb-3">{{section.settings.title}}</h2>
+      <div class="row">
+
+        {% for product in collection.products limit:section.settings.product_limit %}
+
+        <div class="col-md-3 box {{ section.settings.text_align }}" id="product-{{ section.id }}" {{ section.shopify_attributes }}>
+                {% if product.compare_at_price and product.compare_at_price != product.price %}
+                    <span class="badge bg-danger">Sale</span>
+                {% endif %}
+
+                <img src="{{product.featured_image.src | img_url: 'large'}}"  class="img-fluid box__image" alt="{{ product.featured_image.alt }}">
+                <div class="box__overlay align-items-middle">
+                    <h3 class="mt-1 mb-1">{{ product.title }}</h3>
+                        <p>{{ product.metafields.custom_fields["short_description"] }}</p>
+                        <h5>{{ product.price | money }}</h5>
+                    <a href="{{ product.url }}" title="{{ product.title }}" class="btn btn-light">View</a>
+                </div>
+        </div>
+
+        {% endfor %}
+
+      </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Featured Products",
+  "class": "index-section section",
+  "settings": [
+    {
+        "type": "collection",
+        "id": "collection",
+        "label": "Collections"
+        },{
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Featured Products"
+        },{
+            "type": "range",
+            "id": "product_limit",
+            "label": "Product Limit",
+            "min": 4,
+            "max": 16,
+            "default": 4
+        },{
+          "type": "range",
+          "id": "spacing_vertical",
+          "min": 0,
+          "max": 10,
+          "step": 1,
+          "default": 0,
+          "label": "Spacing Vertical"
+        }
+  ],
+  "presets": [
+    {
+      "name": "Featured Products",
+      "category": "Products"
+    }
+  ]
+}
+{% endschema %}

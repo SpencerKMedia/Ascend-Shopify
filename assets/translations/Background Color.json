@@ -1,0 +1,37 @@
+[
+  { "language": "German", "symbol": "de", "text": "Hintergrundfarbe" },
+  { "language": "Italian", "symbol": "it", "text": "Colore di sfondo" },
+  { "language": "Norwegian", "symbol": "no", "text": "Bakgrunnsfarge" },
+  { "language": "Spanish", "symbol": "es", "text": "Color de fondo" },
+  { "language": "Chinese Simplified", "symbol": "zh-cn", "text": "背景颜色" },
+  { "language": "Danish", "symbol": "da", "text": "Baggrundsfarve" },
+  { "language": "Japanese", "symbol": "ja", "text": "背景色" },
+  { "language": "Swedish", "symbol": "sv", "text": "Bakgrundsfärg" },
+  { "language": "Thai", "symbol": "th", "text": "สีพื้นหลัง" },
+  { "language": "Chinese Traditional", "symbol": "zh-tw", "text": "背景顏色" },
+  { "language": "Dutch", "symbol": "nl", "text": "Achtergrond kleur" },
+  { "language": "Finnish", "symbol": "fi", "text": "Taustaväri" },
+  { "language": "Korean", "symbol": "ko", "text": "배경색" },
+  { "language": "Portuguese", "symbol": "pt", "text": "Cor de fundo" },
+  { "language": "French", "symbol": "fr", "text": "Couleur de l'arrière plan" },
+  { "language": "Hindi", "symbol": "hi", "text": "पीछे का रंग" }
+]
+{
+"de" : "Hintergrundfarbe",
+"it" : "Colore di sfondo",
+"nb" : "Bakgrunnsfarge",
+"en" : "Background Color",
+"es" : "Color de fondo",
+"zh-cn" : "背景颜色",
+"da" : "Baggrundsfarve",
+"ja" : "背景色",
+"sv" : "Bakgrundsfärg",
+"th" : "สีพื้นหลัง",
+"zh-tw" : "背景顏色",
+"nl" : "Achtergrond kleur",
+"fi" : "Taustaväri",
+"ko" : "배경색",
+"pt" : "Cor de fundo",
+"fr" : "Couleur de l'arrière plan",
+"hi" : "पीछे का रंग"
+}

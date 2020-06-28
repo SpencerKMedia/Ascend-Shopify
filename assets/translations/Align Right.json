@@ -1,0 +1,36 @@
+[
+  { "language": "German", "symbol": "de", "text": "Rechts ausrichten" },
+  { "language": "Italian", "symbol": "it", "text": "Allinea a destra" },
+  { "language": "Norwegian", "symbol": "no", "text": "Juster riktig" },
+  { "language": "Spanish", "symbol": "es", "text": "Alinear a la derecha" },
+  { "language": "Chinese Simplified", "symbol": "zh-cn", "text": "右对齐" },
+  { "language": "Danish", "symbol": "da", "text": "Juster højre" },
+  { "language": "Japanese", "symbol": "ja", "text": "右揃え" },
+  { "language": "Swedish", "symbol": "sv", "text": "Anpassa till höger" },
+  { "language": "Thai", "symbol": "th", "text": "จัดชิดขวา" },
+  { "language": "Chinese Traditional", "symbol": "zh-tw", "text": "右對齊" },
+  { "language": "Dutch", "symbol": "nl", "text": "Rechts uitlijnen" },
+  { "language": "Finnish", "symbol": "fi", "text": "Kohdista oikea" },
+  { "language": "Korean", "symbol": "ko", "text": "오른쪽 정렬" },
+  { "language": "Portuguese", "symbol": "pt", "text": "Alinhar à direita" },
+  { "language": "French", "symbol": "fr", "text": "Aligner à droite" },
+  { "language": "Hindi", "symbol": "hi", "text": "सही संरेखित" }
+]
+{
+"de": "Rechts ausrichten",
+"it": "Allinea a destra",
+"nb": "Juster riktig",
+"es": "Alinear a la derecha",
+"zh-cn": "右对齐",
+"da": "Juster højre",
+"ja": "右揃え",
+"sv": "Anpassa till höger",
+"th": "จัดชิดขวา",
+"zh-tw": "右對齊",
+"nl": "Rechts uitlijnen",
+"fi": "Kohdista oikea",
+"ko": "오른쪽 정렬",
+"pt": "Alinhar à direita",
+"fr": "Aligner à droite",
+"hi": "सही संरेखित"
+}

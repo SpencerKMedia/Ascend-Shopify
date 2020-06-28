@@ -1,0 +1,17 @@
+[
+  { "language": "German", "symbol": "de", "text": "Nebentitel" },
+  { "language": "Italian", "symbol": "it", "text": "Titolo secondario" },
+  { "language": "Norwegian", "symbol": "no", "text": "Sekundær tittel" },
+  { "language": "Spanish", "symbol": "es", "text": "Título Secundario" },
+  { "language": "Thai", "symbol": "th", "text": "ชื่อเรื่องรอง" },
+  { "language": "Japanese", "symbol": "ja", "text": "副題" },
+  { "language": "Danish", "symbol": "da", "text": "Sekundær titel" },
+  { "language": "Chinese Simplified", "symbol": "zh-cn", "text": "次要标题" },
+  { "language": "Chinese Traditional", "symbol": "zh-tw", "text": "次要標題" },
+  { "language": "Dutch", "symbol": "nl", "text": "Secundaire titel" },
+  { "language": "Korean", "symbol": "ko", "text": "보조 제목" },
+  { "language": "Portuguese", "symbol": "pt", "text": "Título Secundário" },
+  { "language": "French", "symbol": "fr", "text": "Titre secondaire" },
+  { "language": "Hindi", "symbol": "hi", "text": "माध्यमिक उपाधि" },
+  { "language": "Swedish", "symbol": "sv", "text": "Sekundär titel" }
+]

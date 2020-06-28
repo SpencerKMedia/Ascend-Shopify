@@ -1,0 +1,323 @@
+<section id="col-{{ section.settings.primary_title }}-{{ section.settings.id }}" class="container-fluid featured section pt-{{section.settings.spacing_vertical}} pb-{{section.settings.spacing_vertical}}">
+  <div class="row action">
+
+    {% if section.settings.image_align == "left" %}
+      <div class="col-md-7 collection__info bg-{{ section.settings.bg_color }} text-white ">
+          <div class="container ">
+            <div class="justify-content-center align-self-center">
+              <h3 class="mt-1 mb-1">{{ section.settings.primary_title }}</h3>
+              <h5 class="">{{ section.settings.secondary_title }}</h5>
+              <p class="">{{ section.settings.description | truncatewords:40 }}</p>
+              
+              <a href="{{ section.settings.link.url }}" title="{{ section.settings.link.title }}" class="btn btn-light">View {{ section.settings.link.title }}</a>
+            </div>
+          </div>
+      </div>
+    
+      <div class="col-md-5 action__image p-0" id="action-post-{{ section.settings.id }}" style="background-image: url({{ section.settings.image | img_url: '1800x1300' }})" title="{{ section.settings.image.alt }}" {{ section.shopify_attributes }}>
+              <img draggable="false" class="img-fluid sr-only" src="{{ section.settings.image | img_url: '1800x1300' }}" alt="{{ section.settings.image.alt }}" />
+      </div>
+    {% else %}
+        <div class="col-md-5 action__image p-0" id="action-post-{{ section.settings.id }}" style="background-image: url({{ section.settings.image | img_url: '1800x1300' }})" title="{{ section.settings.image.alt }}" {{ section.shopify_attributes }}>
+            <img draggable="false" class="img-fluid sr-only" src="{{ section.settings.image | img_url: '1800x1300' }}" alt="{{ section.settings.image.alt }}" />
+        </div>
+        <div class="col-md-7 collection__info bg-{{ section.settings.bg_color }} text-white ">
+            <div class="container ">
+              <div class="justify-content-center align-self-center">
+                <h3 class="mt-1 mb-1">{{ section.settings.primary_title }}</h3>
+                <h5 class="">{{ section.settings.secondary_title }}</h5>
+                <p class="">{{ section.settings.description | truncatewords:40 }}</p>
+                
+                <a href="{{ section.settings.link.url }}" title="{{ section.settings.link.title }}" class="btn btn-light">View {{ section.settings.link.title }}</a>
+              </div>
+            </div>
+        </div>
+    {% endif %}
+
+  </div>
+</section>
+{% schema %}
+{
+  "name": {
+    "da": "Opfordring til handling",
+    "de": "Aufruf zum Handeln",
+    "en": "Call To Action",
+    "es": "Llamada a la acción",
+    "fi": "Kehotus toimintaan",
+    "fr": "Appel à l'action",
+    "hi": "कार्यवाई के लिए बुलावा",
+    "it": "Chiamare all'azione",
+    "ja": "アクションの呼び出し",
+    "ko": "행동을 요구하다",
+    "nb": "Oppfordring til handling",
+    "nl": "Aufruf zum Handeln",
+    "pt-BR": "Apelo à ação",
+    "pt-PT": "Apelo à ação",
+    "sv": "Uppmaning till handling",
+    "th": "คำกระตุ้นการตัดสินใจ",
+    "zh-CN": "特色产品系列",
+    "zh-TW": "呼籲採取行動"
+  },
+  "class": "index-section section",
+  "settings": [
+    {
+        "type": "url",
+        "id": "link",
+        "label": {
+          "da": "Link",
+          "de": "Verknüpfung",
+          "en": "Link",
+          "es": "Enlace",
+          "fi": "Linkki",
+          "fr": "Lien",
+          "hi": "संपर्क",
+          "it": "collegamento",
+          "ja": "リンク",
+          "ko": "링크",
+          "nb": "Link",
+          "nl": "Koppeling",
+          "pt-BR": "Ligação",
+          "pt-PT": "Ligação",
+          "sv": "Länk",
+          "th": "ลิงค์",
+          "zh-CN": "链接",
+          "zh-TW": "鏈接"
+        }
+        },{
+          "type" : "text",
+          "id" : "primary_title",
+          "label" : {
+          "da": "Primær titel",
+          "de": "Primärer Titel",
+          "en": "Primary Title",
+          "es": "Título primario",
+          "fi": "Ensisijainen otsikko",
+          "fr": "Titre principal",
+          "hi": "प्राथमिक शीर्षक",
+          "it": "Titolo primario",
+          "ja": "主なタイトル",
+          "ko": "기본 제목",
+          "nb": "Primær tittel",
+          "nl": "Primaire titel",
+          "pt-BR": "Título Principal",
+          "pt-PT": "Título Principal",
+          "sv": "Primär titel",
+          "th": "ชื่อหลัก",
+          "zh-CN": "主要标题",
+          "zh-TW": "主要標題"
+        }
+        },{
+          "type" : "text",
+          "id" : "secondary_title",
+          "label" : {
+          "da": "Sekundær titel",
+          "de": "Nebentitel",
+          "en": "Secondary Title",
+          "es": "Título Secundario",
+          "fi": "Toissijainen otsikko",
+          "fr": "Titre secondaire",
+          "hi": "माध्यमिक उपाधि",
+          "it": "Titolo secondario",
+          "ja": "副題",
+          "ko": "보조 제목",
+          "nb": "Sekundær tittel",
+          "nl": "Secundaire titel",
+          "pt-BR": "Título Secundário",
+          "pt-PT": "Título Secundário",
+          "sv": "Sekundär titel",
+          "th": "ชื่อเรื่องรอง",
+          "zh-CN": "次要标题",
+          "zh-TW": "次要標題"
+        }
+        },{
+          "type" : "textarea",
+          "id" : "description",
+          "label" : {
+          "da": "Beskrivelse",
+          "de": "Beschreibung",
+          "en": "Description",
+          "es": "Descripción",
+          "fi": "Kuvaus",
+          "fr": "La description",
+          "hi": "विवरण",
+          "it": "Descrizione",
+          "ja": "説明",
+          "ko": "기술",
+          "nb": "Beskrivelse",
+          "nl": "Omschrijving",
+          "pt-BR": "Descrição",
+          "pt-PT": "Descrição",
+          "sv": "Beskrivning",
+          "th": "ลักษณะ",
+          "zh-CN": "描述",
+          "zh-TW": "描述"
+        }
+        },{
+            "type" : "image_picker",
+            "id" : "image",
+            "label" : {
+            "de" :  "Bild",
+            "it" : "Immagine",
+            "nb" : "Bilde",
+            "en" : "Image",
+            "es" : "Imagen",
+            "zh-cn" : "图片",
+            "da" : "Billede",
+            "ja" : "画像",
+            "sv" : "Bild",
+            "th" : "ภาพ",
+            "zh-tw" : "圖片",
+            "nl" : "Beeld",
+            "fi" : "Kuva",
+            "ko" : "영상",
+            "pt" : "Imagem",
+            "fr" : "Image",
+            "hi" : "छवि"
+        }
+        },{
+            "type": "select",
+            "id": "bg_color",
+            "options": [
+                { "value": "primary", "label": "Primary"},
+                { "value": "secondary", "label": "Secondary"},
+                { "value": "tertiary", "label": "Tertiary"},
+                { "value": "quaternary", "label": "Quaternary"},
+                { "value": "dark", "label": "Dark"},
+                { "value": "light", "label": "light"},
+                { "value": "black", "label": "Black"},
+                { "value": "white", "label": "White"},
+                { "value": "nav", "label": "Blue"}
+            ],
+            "label": {
+              "de" : "Hintergrundfarbe",
+              "it" : "Colore di sfondo",
+              "nb" : "Bakgrunnsfarge",
+              "en" : "Background Color",
+              "es" : "Color de fondo",
+              "zh-cn" : "背景颜色",
+              "da" : "Baggrundsfarve",
+              "ja" : "背景色",
+              "sv" : "Bakgrundsfärg",
+              "th" : "สีพื้นหลัง",
+              "zh-tw" : "背景顏色",
+              "nl" : "Achtergrond kleur",
+              "fi" : "Taustaväri",
+              "ko" : "배경색",
+              "pt" : "Cor de fundo",
+              "fr" : "Couleur de l'arrière plan",
+              "hi" : "पीछे का रंग"
+            }
+        },{
+           "type": "select",
+           "id": "image_align",
+           "options": [
+              { "value": "left", "label": {
+                "de" : "Linksbündig",
+                "it" : "Allineare a sinistra",
+                "nb": "Juster venstre",
+                "en": "Align Left",
+                "es": "Alinear a la izquierda",
+                "zh-cn": "左对齐",
+                "da": "Juster venstre",
+                "ja": "左揃え",
+                "sv": "Justera vänster",
+                "th": "จัดชิดซ้าย",
+                "zh-tw": "左對齊",
+                "nl": "Links uitlijnen",
+                "fi": "Tasaa vasemmalle",
+                "ko": "왼쪽 정렬",
+                "pt": "Alinhar à esquerda",
+                "fr": "Alignez à gauche",
+                "hi": "बाये को करी"
+            }},
+              { "value": "right", "label": {
+                "de": "Rechts ausrichten",
+                "it": "Allinea a destra",
+                "no": "Juster riktig",
+                "es": "Alinear a la derecha",
+                "zh-cn": "右对齐",
+                "da": "Juster højre",
+                "ja": "右揃え",
+                "sv": "Anpassa till höger",
+                "th": "จัดชิดขวา",
+                "zh-tw": "右對齊",
+                "nl": "Rechts uitlijnen",
+                "fi": "Kohdista oikea",
+                "ko": "오른쪽 정렬",
+                "pt": "Alinhar à direita",
+                "fr": "Aligner à droite",
+                "hi": "सही संरेखित"
+                }}
+           ],
+           "label": {
+                "de": "Bild ausrichten",
+                "it": "Allinea immagine",
+                "nb": "Image Align",
+                "en": "Image Align",
+                "es": "Alinear imagen",
+                "th": "จัดรูปภาพ",
+                "ja": "画像の整列",
+                "da": "Billedjustering",
+                "zh-cn": "图像对齐",
+                "zh-tw": "圖像對齊",
+                "nl": "Afbeelding uitlijnen",
+                "ko": "이미지 정렬",
+                "pt": "Alinhar imagem",
+                "fr": "Aligner l'image",
+                "hi": "छवि संरेखित करें",
+                "sv": "Bildjustering"
+                }
+        },{
+          "type": "range",
+          "id": "spacing_vertical",
+          "min": 0,
+          "max": 10,
+          "step": 1,
+          "default": 0,
+          "label": {
+              "de" : "Abstand vertikal" ,
+              "it" : "Spaziatura verticale" ,
+              "nb" : "Avstand vertikalt" ,
+              "en" : "Spacing Vertical" ,
+              "es" : "Espaciado vertical" ,
+              "zh-cn" : "垂直间距" ,
+              "da" : "Afstand lodret" ,
+              "ja" : "垂直方向の間隔" ,
+              "sv" : "Avstånd vertikalt" ,
+              "th" : "ระยะห่างแนวตั้ง" ,
+              "zh-tw" : "垂直間距" ,
+              "nl" : "Afstand verticaal" ,
+              "fi" : "Väli pystysuunnassa" ,
+              "ko" : "간격 수직" ,
+              "pt" : "Espaçamento Vertical" ,
+              "fr" : "Espacement vertical" ,
+              "hi" : "खड़ी जगह"
+          }
+        }
+  ],
+  "presets": [
+    {
+      "name": {
+        "da": "Opfordring til handling",
+        "de": "Aufruf zum Handeln",
+        "en": "Call To Action",
+        "es": "Llamada a la acción",
+        "fi": "Kehotus toimintaan",
+        "fr": "Appel à l'action",
+        "hi": "कार्यवाई के लिए बुलावा",
+        "it": "Chiamare all'azione",
+        "ja": "アクションの呼び出し",
+        "ko": "행동을 요구하다",
+        "nb": "Oppfordring til handling",
+        "nl": "Aufruf zum Handeln",
+        "pt-BR": "Apelo à ação",
+        "pt-PT": "Apelo à ação",
+        "sv": "Uppmaning till handling",
+        "th": "คำกระตุ้นการตัดสินใจ",
+        "zh-CN": "特色产品系列",
+        "zh-TW": "呼籲採取行動"},
+      "category": "Call To Action"
+    }
+  ]
+}
+{% endschema %}

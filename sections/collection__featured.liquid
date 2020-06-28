@@ -1,0 +1,105 @@
+{% assign collection = collections[section.settings.collection] %}
+<section id="col-{{ collection.handle }}-{{ collection.id }}" class="container-fluid featured section pt-{{section.settings.spacing_vertical}} pt-{{section.settings.spacing_vertical}}">
+  <div class="row collection">
+  
+    {% if section.settings.image_align == "left" %}
+      <div class="col-md-4 collection__image p-0" id="collection-post-{{ collection.id }}" style="background-image: url({{ collection.image | img_url: '1800x1300' }})" title="{{ collection.image.alt }}" {{ section.shopify_attributes }}>
+              <img draggable="false" class="img-fluid sr-only" src="{{ collection.image | img_url: '1800x1300' }}" alt="{{ collection.image.alt }}" />
+      </div>
+      <div class="col-md-8 collection__info bg-{{ section.settings.bg_color }} text-white ">
+          <div class="container ">
+            <div class="justify-content-center align-self-center">
+              <h3 class="mt-1 mb-1">{{ collection.title }}</h3>
+              <h5 class="">{{ section.settings.secondary_title }}</h5>
+              <p class="">{{ collection.description | truncatewords:40 }}</p>
+
+              {% if collection.all_products_count == 1 %}
+                {% for product in collection.products limit: 1 %}
+                  <a href="{{ product.url }}" title="{{ product.title }}" class="btn btn-light">View Product</a>
+                {% endfor %}
+              {% else %}
+              <a href="{{ collection.url }}" title="{{ collection.title }}" class="btn btn-light">View Products</a>
+              {% endif %}
+            </div>
+          </div>
+      </div>
+    {% else %}
+      <div class="col-md-8 collection__info bg-{{ section.settings.bg_color }} text-white ">
+          <div class="container ">
+            <div class="justify-content-center align-self-center">
+              <h3 class="mt-1 mb-1">{{ collection.title }}</h3>
+              <h5 class="">{{ section.settings.secondary_title }}</h5>
+              <p class="">{{ collection.description | truncatewords:40 }}</p>
+
+              {% if collection.all_products_count == 1 %}
+                {% for product in collection.products limit: 1 %}
+                  <a href="{{ product.url }}" title="{{ product.title }}" class="btn btn-light">View Product</a>
+                {% endfor %}
+              {% else %}
+              <a href="{{ collection.url }}" title="{{ collection.title }}" class="btn btn-light">View Products</a>
+              {% endif %}
+            </div>
+          </div>
+      </div>
+      <div class="col-md-4 collection__image p-0" id="collection-post-{{ collection.id }}" style="background-image: url({{ collection.image | img_url: '1800x1300' }})" title="{{ collection.image.alt }}" {{ section.shopify_attributes }}>
+              <img draggable="false" class="img-fluid sr-only" src="{{ collection.image | img_url: '1800x1300' }}" alt="{{ collection.image.alt }}" />
+      </div>
+    {% endif %}
+    
+
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Collections",
+  "class": "index-section section",
+  "settings": [
+    {
+        "type": "collection",
+        "id": "collection",
+        "label": "Collections"
+        },{
+          "type" : "text",
+          "id" : "secondary_title",
+          "label" : "Secondary Heading"
+        },{
+            "type": "select",
+            "id": "bg_color",
+            "options": [
+                { "value": "primary", "label": "Primary"},
+                { "value": "secondary", "label": "Secondary"},
+                { "value": "tertiary", "label": "Tertiary"},
+                { "value": "quaternary", "label": "Quaternary"},
+                { "value": "dark", "label": "Dark"},
+                { "value": "light", "label": "light"},
+                { "value": "black", "label": "Black"},
+                { "value": "white", "label": "White"},
+                { "value": "nav", "label": "Blue"}
+            ],
+            "label": "Background Color"
+        },{
+           "type": "select",
+           "id": "image_align",
+           "options": [
+              { "value": "left", "label": "Align Left"},
+              { "value": "right", "label": "Align Right"}
+           ],
+           "label": "Image Alignment"
+        },{
+          "type": "range",
+          "id": "spacing_vertical",
+          "min": 0,
+          "max": 10,
+          "step": 1,
+          "default": 0,
+          "label": "Spacing Vertical"
+        }
+  ],
+  "presets": [
+    {
+      "name": "Featured Collection",
+      "category": "Collection"
+    }
+  ]
+}
+{% endschema %}

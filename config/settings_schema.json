@@ -39,46 +39,29 @@
       }, {
         "type" : "text",
         "id" : "keywords",
-        "label" : "Meta Keywords",
+        "label" : "Meta | Keywords",
         "info" : "Enter in keywords separated by comma i.e.:Product, Wonderful Safe Products"
       }, {
         "type": "text",
         "id": "author",
-        "label": "Meta Site Developer"
+        "label": "Meta | Site Developer"
+      }, {
+        "type" : "header",
+        "content" : "Menu Options"
+      }, {
+        "type": "select",
+        "id": "menu__top-visibility",
+        "options": [{
+            "value": "show",
+            "label": "Visible"
+          },
+          {
+            "value": "hide",
+            "label": "Hidden"
+          }
+        ],
+        "label": "Menu Top Visibility"
       }
     ]
-  },
-  {
-    "name" : "Page | About",
-    "settings" : [{
-      "type" : "image_picker",
-      "id" : "image__about",
-      "label" : "About Hero Image Picker"
-    },{
-      "type" : "textarea",
-      "id" : "description__about",
-      "label" : "Page Description"
-    }]
-  }, {
-    "name": "Page | Contact",
-    "settings": [{
-      "type": "image_picker",
-      "id": "image__contact",
-      "label": "Contact Hero Image Picker"
-    }]
-  }, {
-    "name": "Page | Collections",
-    "settings": [{
-      "type": "image_picker",
-      "id": "image__collections",
-      "label": "Collections Hero Image Picker"
-    }]
-  }, {
-    "name": "Page | Shop",
-    "settings": [{
-      "type": "image_picker",
-      "id": "image__shop",
-      "label": "Shop Hero Image Picker"
-    }]
   }
 ]

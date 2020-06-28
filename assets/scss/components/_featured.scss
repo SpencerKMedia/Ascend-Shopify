@@ -1,0 +1,19 @@
+.featured{
+
+    .collection,.action{
+        padding: 0;
+        min-height: 50rem;
+
+        &__image{
+            min-height: inherit;
+            padding: 0;
+            height: 100%;
+            background-size: cover;
+            background-position: bottom center;
+        }
+
+        &__info{
+            padding: 10rem 5rem;
+        }
+    }
+}

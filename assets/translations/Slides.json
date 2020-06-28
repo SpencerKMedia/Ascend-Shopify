@@ -1,0 +1,38 @@
+[
+  { "language": "German", "symbol": "de", "text": "Folien" },
+  { "language": "Italian", "symbol": "it", "text": "Slides" },
+  { "language": "Norwegian", "symbol": "nb", "text": "lysbilder" },
+  { "language": "English", "symbol": "en", "text": "Slides" },
+  { "language": "Spanish", "symbol": "es", "text": "Diapositivas" },
+  { "language": "Chinese Simplified", "symbol": "zh-cn", "text": "滑梯" },
+  { "language": "Danish", "symbol": "da", "text": "Slides" },
+  { "language": "Japanese", "symbol": "ja", "text": "スライド" },
+  { "language": "Swedish", "symbol": "sv", "text": "slides" },
+  { "language": "Thai", "symbol": "th", "text": "สไลด์" },
+  { "language": "Chinese Traditional", "symbol": "zh-tw", "text": "滑梯" },
+  { "language": "Dutch", "symbol": "nl", "text": "Dia's" },
+  { "language": "Finnish", "symbol": "fi", "text": "dioja" },
+  { "language": "Korean", "symbol": "ko", "text": "슬라이드" },
+  { "language": "Portuguese", "symbol": "pt", "text": "Slides" },
+  { "language": "French", "symbol": "fr", "text": "Diapositives" },
+  { "language": "Hindi", "symbol": "hi", "text": "स्लाइड्स" }
+]
+{
+"de": "Folien",
+"it": "Slides",
+"nb": "lysbilder",
+"en": "Slides",
+"es": "Diapositivas",
+"zh-cn": "滑梯",
+"da": "Slides",
+"ja": "スライド",
+"sv": "slides",
+"th": "สไลด์",
+"zh-tw": "滑梯",
+"nl": "Dia's",
+"fi": "dioja",
+"ko": "슬라이드",
+"pt": "Slides",
+"fr": "Diapositives",
+"hi": "स्लाइड्स"
+}

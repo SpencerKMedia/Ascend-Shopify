@@ -1,0 +1,35 @@
+[
+  { "language": "German", "symbol": "de", "text": "Bild ausrichten" },
+  { "language": "Italian", "symbol": "it", "text": "Allinea immagine" },
+  { "language": "Norwegian", "symbol": "nb", "text": "Image Align" },
+  { "language": "Spanish", "symbol": "es", "text": "Alinear imagen" },
+  { "language": "Thai", "symbol": "th", "text": "จัดรูปภาพ" },
+  { "language": "Japanese", "symbol": "ja", "text": "画像の整列" },
+  { "language": "Danish", "symbol": "da", "text": "Billedjustering" },
+  { "language": "Chinese Simplified", "symbol": "zh-cn", "text": "图像对齐" },
+  { "language": "Chinese Traditional", "symbol": "zh-tw", "text": "圖像對齊" },
+  { "language": "Dutch", "symbol": "nl", "text": "Afbeelding uitlijnen" },
+  { "language": "Korean", "symbol": "ko", "text": "이미지 정렬" },
+  { "language": "Portuguese", "symbol": "pt", "text": "Alinhar imagem" },
+  { "language": "French", "symbol": "fr", "text": "Aligner l'image" },
+  { "language": "Hindi", "symbol": "hi", "text": "छवि संरेखित करें" },
+  { "language": "Swedish", "symbol": "sv", "text": "Bildjustering" }
+]
+{
+"de": "Bild ausrichten",
+"it": "Allinea immagine",
+"nb": "Image Align",
+"en": "Image Align",
+"es": "Alinear imagen",
+"th": "จัดรูปภาพ",
+"ja": "画像の整列",
+"da": "Billedjustering",
+"zh-cn": "图像对齐",
+"zh-tw": "圖像對齊",
+"nl": "Afbeelding uitlijnen",
+"ko": "이미지 정렬",
+"pt": "Alinhar imagem",
+"fr": "Aligner l'image",
+"hi": "छवि संरेखित करें",
+"sv": "Bildjustering"
+}

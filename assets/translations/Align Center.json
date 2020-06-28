@@ -1,0 +1,37 @@
+[
+  { "language": "German", "symbol": "de", "text": "Im Zentrum anordnen" },
+  { "language": "Italian", "symbol": "it", "text": "Allinea al centro" },
+  { "language": "Norwegian", "symbol": "no", "text": "Juster sentrum" },
+  { "language": "Spanish", "symbol": "es", "text": "Alinear al centro" },
+  { "language": "Chinese Simplified", "symbol": "zh-cn", "text": "居中对齐" },
+  { "language": "Danish", "symbol": "da", "text": "Juster Center" },
+  { "language": "Japanese", "symbol": "ja", "text": "中央揃え" },
+  { "language": "Swedish", "symbol": "sv", "text": "Centrera i linje med" },
+  { "language": "Thai", "symbol": "th", "text": "จัดกึ่งกลาง" },
+  { "language": "Chinese Traditional", "symbol": "zh-tw", "text": "居中對齊" },
+  { "language": "Dutch", "symbol": "nl", "text": "Tekst in het midden uitlijnen" },
+  { "language": "Finnish", "symbol": "fi", "text": "Kohdista keskusta" },
+  { "language": "Korean", "symbol": "ko", "text": "가운데 정렬" },
+  { "language": "Portuguese", "symbol": "pt", "text": "Alinhar ao centro" },
+  { "language": "French", "symbol": "fr", "text": "Aligner le centre" },
+  { "language": "Hindi", "symbol": "hi", "text": "मध्य में संरेखित करें" }
+]
+{
+"de": "Im Zentrum anordnen",
+"it": "Allinea al centro",
+"nb": "Juster sentrum",
+"en": "Align Center",
+"es": "Alinear al centro",
+"zh-cn": "居中对齐",
+"da": "Juster Center",
+"ja": "中央揃え",
+"sv": "Centrera i linje med",
+"th": "จัดกึ่งกลาง",
+"zh-tw": "居中對齊",
+"nl": "Tekst in het midden uitlijnen",
+"fi": "Kohdista keskusta",
+"ko": "가운데 정렬",
+"pt": "Alinhar ao centro",
+"fr": "Aligner le centre",
+"hi": "मध्य में संरेखित करें"
+}

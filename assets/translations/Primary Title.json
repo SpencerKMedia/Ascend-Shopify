@@ -1,0 +1,17 @@
+[
+  { "language": "German", "symbol": "de", "text": "Primärer Titel" },
+  { "language": "Italian", "symbol": "it", "text": "Titolo primario" },
+  { "language": "Norwegian", "symbol": "no", "text": "Primær tittel" },
+  { "language": "Spanish", "symbol": "es", "text": "Título primario" },
+  { "language": "Thai", "symbol": "th", "text": "ชื่อหลัก" },
+  { "language": "Japanese", "symbol": "ja", "text": "主なタイトル" },
+  { "language": "Danish", "symbol": "da", "text": "Primær titel" },
+  { "language": "Chinese Simplified", "symbol": "zh-cn", "text": "主要标题" },
+  { "language": "Chinese Traditional", "symbol": "zh-tw", "text": "主要標題" },
+  { "language": "Dutch", "symbol": "nl", "text": "Primaire titel" },
+  { "language": "Korean", "symbol": "ko", "text": "기본 제목" },
+  { "language": "Portuguese", "symbol": "pt", "text": "Título Principal" },
+  { "language": "French", "symbol": "fr", "text": "Titre principal" },
+  { "language": "Hindi", "symbol": "hi", "text": "प्राथमिक शीर्षक" },
+  { "language": "Swedish", "symbol": "sv", "text": "Primär titel" }
+]

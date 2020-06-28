@@ -34,7 +34,9 @@
 </head>
 
 <body class="{{ settings.site__bg }}">
-  {% section 'header_action' %}
+  {% if settings.menu__top-visibility == "show" %}
+    {% section 'header__action' %}
+  {% endif %}
   {% section 'header' %}
 
   {{ content_for_layout }}

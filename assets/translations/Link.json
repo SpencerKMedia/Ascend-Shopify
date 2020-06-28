@@ -1,0 +1,18 @@
+[
+  { "language": "German", "symbol": "de", "text": "Verknüpfung" },
+  { "language": "Italian", "symbol": "it", "text": "collegamento" },
+  { "language": "Norwegian", "symbol": "no", "text": "link" },
+  { "language": "Spanish", "symbol": "es", "text": "Enlace" },
+  { "language": "Chinese Simplified", "symbol": "zh-cn", "text": "链接" },
+  { "language": "Danish", "symbol": "da", "text": "Link" },
+  { "language": "Japanese", "symbol": "ja", "text": "リンク" },
+  { "language": "Swedish", "symbol": "sv", "text": "Länk" },
+  { "language": "Thai", "symbol": "th", "text": "ลิงค์" },
+  { "language": "Chinese Traditional", "symbol": "zh-tw", "text": "鏈接" },
+  { "language": "Dutch", "symbol": "nl", "text": "Koppeling" },
+  { "language": "Finnish", "symbol": "fi", "text": "Linkki" },
+  { "language": "Korean", "symbol": "ko", "text": "링크" },
+  { "language": "Portuguese", "symbol": "pt", "text": "Ligação" },
+  { "language": "French", "symbol": "fr", "text": "Lien" },
+  { "language": "Hindi", "symbol": "hi", "text": "संपर्क" }
+]

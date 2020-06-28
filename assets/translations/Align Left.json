@@ -1,0 +1,37 @@
+[
+  { "language": "German", "symbol": "de", "text": "Linksbündig" },
+  { "language": "Italian", "symbol": "it", "text": "Allineare a sinistra" },
+  { "language": "Norwegian", "symbol": "no", "text": "Juster venstre" },
+  { "language": "Spanish", "symbol": "es", "text": "Alinear a la izquierda" },
+  { "language": "Chinese Simplified", "symbol": "zh-cn", "text": "左对齐" },
+  { "language": "Danish", "symbol": "da", "text": "Juster venstre" },
+  { "language": "Japanese", "symbol": "ja", "text": "左揃え" },
+  { "language": "Swedish", "symbol": "sv", "text": "Justera vänster" },
+  { "language": "Thai", "symbol": "th", "text": "จัดชิดซ้าย" },
+  { "language": "Chinese Traditional", "symbol": "zh-tw", "text": "左對齊" },
+  { "language": "Dutch", "symbol": "nl", "text": "Links uitlijnen" },
+  { "language": "Finnish", "symbol": "fi", "text": "Tasaa vasemmalle" },
+  { "language": "Korean", "symbol": "ko", "text": "왼쪽 정렬" },
+  { "language": "Portuguese", "symbol": "pt", "text": "Alinhar à esquerda" },
+  { "language": "French", "symbol": "fr", "text": "Alignez à gauche" },
+  { "language": "Hindi", "symbol": "hi", "text": "बाये को करी" }
+]
+{
+    "de" : "Linksbündig",
+    "it" : "Allineare a sinistra",
+    "nb": "Juster venstre",
+    "en": "Align Left",
+    "es": "Alinear a la izquierda",
+    "zh-cn": "左对齐",
+    "da": "Juster venstre",
+    "ja": "左揃え",
+    "sv": "Justera vänster",
+    "th": "จัดชิดซ้าย",
+    "zh-tw": "左對齊",
+    "nl": "Links uitlijnen",
+    "fi": "Tasaa vasemmalle",
+    "ko": "왼쪽 정렬",
+    "pt": "Alinhar à esquerda",
+    "fr": "Alignez à gauche",
+    "hi": "बाये को करी"
+}

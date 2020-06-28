@@ -1,0 +1,37 @@
+[
+  { "language": "German", "symbol": "de", "text": "Spaltenausrichtung" },
+  { "language": "Italian","symbol": "it", "text": "Allineamento della colonna" },
+  { "language": "Norwegian", "symbol": "nb", "text": "Kolonnejustering" },
+  { "language": "Spanish", "symbol": "es", "text": "Alineación de columna" },
+  { "language": "Chinese Simplified", "symbol": "zh-cn", "text": "列对齐" },
+  { "language": "Danish", "symbol": "da", "text": "Kolonnejustering" },
+  { "language": "Japanese", "symbol": "ja", "text": "列の配置" },
+  { "language": "Swedish", "symbol": "sv", "text": "Kolumnjustering" },
+  { "language": "Thai", "symbol": "th", "text": "การจัดแนวคอลัมน์" },
+  { "language": "Chinese Traditional", "symbol": "zh-tw", "text": "列對齊" },
+  { "language": "Dutch", "symbol": "nl", "text": "Kolomuitlijning" },
+  { "language": "Finnish", "symbol": "fi", "text": "Sarakkeen kohdistus" },
+  { "language": "Korean", "symbol": "ko", "text": "열 정렬" },
+  { "language": "Portuguese", "symbol": "pt", "text": "Alinhamento da coluna" },
+  { "language": "French", "symbol": "fr", "text": "Alignement des colonnes" },
+  { "language": "Hindi", "symbol": "hi", "text": "स्तंभ संरेखण" }
+]
+{
+"de": "Spaltenausrichtung",
+"it": "Allineamento della colonna",
+"nb": "Kolonnejustering",
+"en": "Column Align",
+"es": "Alineación de columna",
+"zh-cn": "列对齐",
+"da": "Kolonnejustering",
+"ja": "列の配置",
+"sv": "Kolumnjustering",
+"th": "การจัดแนวคอลัมน์",
+"zh-tw": "列對齊",
+"nl": "Kolomuitlijning",
+"fi": "Sarakkeen kohdistus",
+"ko": "열 정렬",
+"pt": "Alinhamento da coluna",
+"fr": "Alignement des colonnes",
+"hi": "स्तंभ संरेखण"
+}

@@ -1,0 +1,38 @@
+[
+  { "language": "German", "symbol": "de", "text": "Bild" },
+  { "language": "Italian", "symbol": "it", "text": "Immagine" },
+  { "language": "Norwegian", "symbol": "no", "text": "Bilde" },
+  { "language": "Spanish", "symbol": "es", "text": "Imagen" },
+  { "language": "Chinese Simplified", "symbol": "zh-cn", "text": "图片" },
+  { "language": "Danish", "symbol": "da", "text": "Billede" },
+  { "language": "Japanese", "symbol": "ja", "text": "画像" },
+  { "language": "Swedish", "symbol": "sv", "text": "Bild" },
+  { "language": "Thai", "symbol": "th", "text": "ภาพ" },
+  { "language": "Chinese Traditional", "symbol": "zh-tw", "text": "圖片" },
+  { "language": "Dutch", "symbol": "nl", "text": "Beeld" },
+  { "language": "Finnish", "symbol": "fi", "text": "Kuva" },
+  { "language": "Korean", "symbol": "ko", "text": "영상" },
+  { "language": "Portuguese", "symbol": "pt", "text": "Imagem" },
+  { "language": "French", "symbol": "fr", "text": "Image" },
+  { "language": "Hindi", "symbol": "hi", "text": "छवि" }
+]
+
+{
+    "de" :  "Bild",
+    "it" : "Immagine",
+    "nb" : "Bilde",
+    "en" : "Image",
+    "es" : "Imagen",
+    "zh-cn" : "图片",
+    "da" : "Billede",
+    "ja" : "画像",
+    "sv" : "Bild",
+    "th" : "ภาพ",
+    "zh-tw" : "圖片",
+    "nl" : "Beeld",
+    "fi" : "Kuva",
+    "ko" : "영상",
+    "pt" : "Imagem",
+    "fr" : "Image",
+    "hi" : "छवि"
+}
